@@ -17,11 +17,11 @@ export class ProfileController {
         }
     }
 
-    @Patch(":id")
-    async updateProfile(
-        @Param("id") id: string,
-        @Body() body: UpdateProfileDto,
-    ) {
-        return await this.profileService.updateProfile(id, body)
-    }
+    // @Patch(":id")
+    // async updateProfile(
+    //     @Param("id") id: string,
+    //     @Body() body: UpdateProfileDto,
+    // ) {
+    //     return await this.profileService.updateProfile(id, body)
+    // }
 }
