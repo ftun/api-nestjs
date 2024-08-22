@@ -1,4 +1,4 @@
-import { ArrayMaxSize, ArrayMinSize, IsArray, isArray, IsString, ValidateNested } from "class-validator";
+import { ArrayMaxSize, ArrayMinSize, IsArray, IsString, ValidateNested } from "class-validator";
 
 type socialNetworks = {
     name: string;
@@ -14,7 +14,7 @@ type experience = {
 }
 
 export class CreateProfileDto {
-
+    
     @IsString()
     name: string;
 
